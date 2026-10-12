@@ -1,5 +1,5 @@
-# COMP 484 – HW6 Personal Resume
+# COMP 484 – HW7 Personal Resume
 
-Live site (GitHub Pages): https://kiran-ragavender.github.io/comp484-hw6/
+Live site (GitHub Pages): https://kiran-ragavender.github.io/comp484-hw7/
 
-Personal resume website built for COMP 484 HW6: external stylesheet, custom color palette, and Google Fonts (Playfair Display + Inter).
+Continues the HW6 resume site: content wrappers with max-width and padding, box model fix, centered footer contact links, and a reusable two-column float layout for the header and work experience.
