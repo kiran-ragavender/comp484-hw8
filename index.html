@@ -8,11 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome: icons for the nav and footer contact links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- // Navigation: plain links (no list), sticks to the top while scrolling -->
+    <nav class="site-nav">
+        <div class="nav-wrap">
+            <a class="nav-logo" href="#top">KRS</a>
+            <div class="nav-links">
+                <a href="#work">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <a class="nav-resume" href="files/Kiran_Ragavender_Shankar_Resume.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Resume PDF</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- // Intro -->
-    <header>
+    <header id="top">
         <div class="content-wrap">
             <img class="profile-img column-narrow" src="images/kiran.jpeg" alt="Kiran Ragavender Shankar">
 
@@ -27,7 +44,7 @@
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -95,7 +112,7 @@
 
 
         <!-- // Projects -->
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="content-wrap">
                 <h2>Projects</h2>
 
@@ -123,7 +140,7 @@
 
 
         <!-- // Skills -->
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="content-wrap">
                 <h2>Skills</h2>
 
@@ -164,7 +181,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -194,16 +211,18 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
-            <!-- Social media and contact links. Add or remove any networks. -->
+            <!-- Social media and contact links with Font Awesome icons. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:kiranragavendershankar@gmail.com">kiranragavendershankar@gmail.com</a>
-                <a href="https://www.linkedin.com/in/kiran-ragavender-shankar/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/kiran-ragavender" target="_blank">GitHub</a>
+                <a href="mailto:kiranragavendershankar@gmail.com"><i class="fa-solid fa-envelope"></i> kiranragavendershankar@gmail.com</a>
+                <a href="https://www.linkedin.com/in/kiran-ragavender-shankar/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/kiran-ragavender" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="files/Kiran_Ragavender_Shankar_Resume.pdf" download><i class="fa-solid fa-file-pdf"></i> Resume PDF</a>
             </div>
+            <p class="location"><i class="fa-solid fa-location-dot"></i> Los Angeles, CA</p>
 
             <p>Copyright 2026 by Kiran Ragavender Shankar</p>
         </div>
